@@ -1,0 +1,118 @@
+header{
+    background-color: rgb(0, 0, 0);
+    padding-top: 25px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+header div{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    display: inline-flex;
+}
+
+header img{
+    width: 200px;
+    height: 200px;
+}
+
+header h1{
+    color: rgb(255, 255, 255);
+    display: inline;
+    font-style: italic;
+}
+
+nav{
+background-color: rgb(73, 27, 0);
+padding: 25px;
+border-radius: 25px;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav a{
+    color:goldenrod;
+    padding: 20px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+body{
+    background-color: rgb(165, 91, 42);
+}
+
+body div h3{
+    align-items: center;
+    text-align: center;
+    display: inline-flex;
+    color: goldenrod;
+    font-style: italic;
+}
+
+h4{
+    font-style: italic;
+    color: goldenrod;
+}
+
+.body{
+    display: flex;
+}
+
+main{
+    background-color: rgb(73, 27, 0);
+    width: 1000px;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.card{
+    display: flex;
+}
+
+.card div{
+    width: 160px;
+    height: 190px;
+    background-color: rgb(24, 24, 24);
+    padding: 15px;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 0px 5px 10px rgb(54, 54, 54);
+}
+
+.card img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.card div:hover{
+    transform: 1.05;
+    background-color: rgb(59, 59, 59);
+    box-shadow: 0px 5px 15px black;
+}
+
+.excepcion h4{
+    color: rgb(0, 247, 255);
+}
+
+footer{
+    background-color: rgb(73, 27, 0);
+    color: white;
+    font-style: italic;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+footer a{
+    color: goldenrod;
+}
